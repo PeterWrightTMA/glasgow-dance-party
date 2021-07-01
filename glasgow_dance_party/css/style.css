@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+
+body{
+    background-color:honeydew;
+    margin: 30px 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
+    line-height: 1.4;
+    box-sizing: border-box;
+}
+
+
+
+    header {
+  background-color:hotpink;
+  color: #fff;
+  text-align: center;
+  grid-area: header;
+  padding-top: 15px;
+  padding-bottom: 15px;
+} 
+
+
+
+#topnav{
+  display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+.boxes{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.banner{
+    
+}
+
+#rules{
+    background-color: hotpink;
+    width: 100%; 
+   height: 80px; 
+   border: 1px; 
+   margin: 0 auto;
+   color: white;
+}
+
+
+
+
